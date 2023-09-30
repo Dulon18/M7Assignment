@@ -1,4 +1,4 @@
-# M7Assignment
+# Assignment
 
 ##  Project structure with express.js
 
