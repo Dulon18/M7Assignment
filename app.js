@@ -9,7 +9,7 @@ const hpp=require('hpp');
 const cors=require('cors');
 const mongoose=require('mongoose');
 
-app.use("/api/",router);
+app.use("/api/", router);
 
 app.use("*",(req,res)=>{
     res.status(404).json({status:"fail",data:"Not Found"})
